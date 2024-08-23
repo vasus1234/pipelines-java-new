@@ -9,6 +9,10 @@ trigger:
 # pool: 
 #   vmImage: ubuntu-latest
 
+pool: 
+  vmImage: ICS-LT-JVV48G3
+
+
 steps:
 - task: Maven@3
   inputs:
